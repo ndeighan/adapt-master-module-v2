@@ -1,0 +1,45 @@
+[
+	{  
+  "_id":"c-01",
+  	"_parentId":"b-01",
+  "_type":"component",
+  "_component":"webObject",
+        "_classes":"",
+        "_layout":"full",
+        "title":"Scenario 1",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "autoplay":"1",
+        "_webObject": {
+            "type": "text/html",
+            "data": "course/en/embed/introduction/introduction.html",
+            "width": "100%",
+            "height": "576px"
+        },
+    "_pageLevelProgress": {
+    "_isEnabled": true,
+        "_isOptional": false
+    }
+},
+    
+	{
+        "_id":"c-50",
+        "_parentId":"b-50",
+        "_type":"component",
+        "_component":"graphic",
+        "_classes":"",
+        "_layout":"full",
+        "title":"",
+        "displayTitle":"",
+        "body":"",
+        "instruction":"",
+        "_graphic": {
+            "alt": "alt text",
+            "title": "title text",
+            "large": "course/en/images/adapt_footer.png",
+            "small": "course/en/images/adapt_footer.png",
+            "attribution": ""
+        }
+    }
+]
