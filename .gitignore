@@ -1,7 +1,5 @@
 src/course/en/audio
 src/course/en/video
 build
-bower_components
-node_modules
 .DS_Store
 .idea
