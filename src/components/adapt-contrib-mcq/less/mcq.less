@@ -1,7 +1,18 @@
 .mcq-component {
+    .mcq-height {
+            height: 500px;
+            background-color:#ffffff;
+        }
+
     .mcq-item {
-        background-color:@item-color;
-        position:relative;
+        background-color:#ffffff;
+        line-height: 44px;
+        display: inline-block;
+        vertical-align: middle;
+        padding: 0 45px;
+        margin-top: 20px;
+        min-width: 260px;
+        outline: none;
     }
 
     .mcq-item label {
@@ -26,7 +37,7 @@
                 &:before {
                     content: " ";
                 }
-                border: 3px solid @item-text-color;
+                border: 2px solid #37474f;
                 width:18px;
                 height:18px;
                 font-size:18px;
@@ -66,16 +77,16 @@
     .mcq-item-inner {
         padding:@item-padding;
         padding-left:(@icon-size+(@item-padding-left*2));
-	    .dir-rtl & {
+        .dir-rtl & {
             padding-left:inherit;
-	        padding-right:(@icon-size+(@item-padding-left*2));
-	    }
+            padding-right:(@icon-size+(@item-padding-left*2));
+        }
     }
 
     .mcq-item input {
         position:absolute;
         top:14px;
-        left:14px;
+        left:46px;
         .dir-rtl & {
             left:inherit;
             right:14px;
