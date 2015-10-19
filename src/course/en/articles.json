@@ -11,7 +11,7 @@
 			"_isEnabled": true,
             "_styleAfterClick": "disabled",
             "_button": {
-                "_className": "trickle-round-arrow"
+                "_className": "trickle-edge-left"
             }
 		}
 	}

@@ -1,6 +1,6 @@
 .trickle-button-component {
     .trickle-button-inner { //overwrite component styling 
-        background-color: #f1f1f1;
+        background-color: transparent;
         padding: 0;
     }
 
@@ -10,6 +10,18 @@
             .transition-background-color
         }
     }
+
+	&.trickle-edge-left {
+	        button {
+	            background-color: @button-color;
+	        }
+	    }
+
+	     &.trickle-edge-right {
+	        button {
+	            background-color: @button-color;
+	        }
+	    }
 
     &.trickle-full-width.trickle-round-arrow {
         .trickle-button-inner {
