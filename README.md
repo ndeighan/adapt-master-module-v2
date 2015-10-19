@@ -1,4 +1,4 @@
-Adapt Framework
+Adapt Framework test
 ===============
 This is a modification of the Adapt Learning project; a Framework and Authoring tool for Responsive E-Learning.
 
