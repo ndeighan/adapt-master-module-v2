@@ -6,9 +6,8 @@
 define(function(require) {
   var ComponentView = require('coreViews/componentView');
   var Adapt = require('coreJS/adapt');
-  
-  
-   
+  //  var _ = require('coreJS/libraries/underscore');
+    
   var WebObject = ComponentView.extend({
       
    events: {
@@ -27,11 +26,11 @@ define(function(require) {
 
             // Check the instruction to fire trickle check from edge
             
-            
             var useTrickle = this.$('.component-instruction').length > 0
                 ? '.component-instruction'
                 : (this.$('.component-body').length > 0 ? '.component-body' : null);
             
+            this.my_webobject = this;
 
             if (!useTrickle) {
                 this.actTrickle();
@@ -68,24 +67,22 @@ define(function(require) {
 
             }
         },
-	
-
-    actTrickle: function() {
-			 triggerVar = "0";
-             triggerCheck = setInterval(this.inview1, 1000, this);
-    },
- 
       
-    inview1: function(my_webobject) {
-        if (triggerVar == "1") {
-            my_webobject.setCompletionStatus();
-        }
-    }
+    actTrickle: function() {
+            triggerVar = "0";
+            triggerCheck = setInterval(_.bind(this.inview1, this), 1000);
+        
+    },
+      
+            inview1: function() {
+                if (triggerVar == "1") {
+                    this.setCompletionStatus();
+                }
+            }
 
   });
 
   
-    
   Adapt.register("webObject", WebObject);
 
 });

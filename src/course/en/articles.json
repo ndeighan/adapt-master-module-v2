@@ -9,10 +9,11 @@
 		"body": "",
 		"_trickle": {
 			"_isEnabled": true,
-            "_styleAfterClick": "disabled",
-            "_button": {
-                "_className": "trickle-edge-left"
-            }
+			  "_button": {
+			    "_className": "trickle-edge-left",
+			    "_isFullWidth": false,
+			    "_autoHide": false
+			   }
 		}
 	}
 ]
