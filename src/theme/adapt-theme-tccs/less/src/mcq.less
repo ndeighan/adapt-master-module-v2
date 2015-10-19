@@ -1,8 +1,29 @@
+.background-picture {
+    /*background-image: url("../../course/en/images/cloud-background.png");*/
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.mcq-body-inner {
+    font-size: 18px; 
+    font-weight: 600;
+}
+
 .mcq-component {
     .mcq-item {
         background-color:@white;
         position:relative;
     }
+
+    .mcq-component .mcq-item label .mcq-answer-icon.checkbox {
+    border: 3px solid #000;
+    width: 18px;
+    height: 18px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 2px;
+}
 
     .mcq-item label {
         color:#333;

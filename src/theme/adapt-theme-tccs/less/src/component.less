@@ -5,13 +5,14 @@
     .component-inner {
         .component-background;
         &.blank-inner { // don't apply styling to blank component
-            background-color: transparent;
+            background-color:transparent;
             padding: 0;
         }
     }
 
     .component-title{
         margin-bottom: @component-title-margin-bottom;
+        padding-left: 44px;
         color: @title-color;
         text-align: left;
 
@@ -25,7 +26,9 @@
     }
 
     .component-body{
-        margin: @component-body-margin-top 0px @component-body-margin-bottom;
+        background-color: #ffffff;
+        margin: 0px 0px @component-body-margin-bottom;
+        padding-top: @body-text-margin;
 
         a {
           text-decoration: underline;
@@ -34,7 +37,7 @@
     }
 
     .component-body-inner{
-        padding: 0px;
+            padding: 40px 0px 20px 40px; 
     }
 
     .component-instruction {

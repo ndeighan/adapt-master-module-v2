@@ -2,12 +2,12 @@
 // =============
 
 .block {
-    background-color: @background-color;
+    background-color: #ffffff;
 
     .block-inner {
         max-width: @device-width-large;
         margin: auto;
-        padding: @block-padding-top 0 @block-padding-bottom;
+        padding: 0;
         // reduce padding as screen width decreases
         @media all and (max-width: (@device-width-large + 20px)) {
             padding: (@block-padding-top / 2) 20px (@block-padding-bottom / 2);
@@ -36,3 +36,7 @@
         .instruction-text;
     }
 }
+
+.block-background-blue {
+        background-color: #ffffff;
+    }
