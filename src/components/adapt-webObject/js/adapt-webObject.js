@@ -10,19 +10,19 @@ define(function(require) {
     
   var WebObject = ComponentView.extend({
       
-   events: {
+      events: {
       'inview':'inview'
     },
 	  
     preRender: function() {
             this.$el.addClass("no-state");
+            
             // Checks to see if the blank should be reset on revisit
             this.checkIfResetOnRevisit();
         },
 
         postRender: function() {
             this.setReadyStatus();
-
 
             // Check the instruction to fire trickle check from edge
             
@@ -31,7 +31,7 @@ define(function(require) {
                 : (this.$('.component-body').length > 0 ? '.component-body' : null);
             
             this.my_webobject = this;
-
+            
             if (!useTrickle) {
                 this.actTrickle();
             } else {
@@ -43,40 +43,29 @@ define(function(require) {
         checkIfResetOnRevisit: function() {
             var isResetOnRevisit = this.model.get('_isResetOnRevisit');
 
+            
             // If reset is enabled set defaults
             if (isResetOnRevisit) {
                 this.model.reset(isResetOnRevisit);
             }
         }, 
       
-    inview: function(event, visible, visiblePartX, visiblePartY) {
-            if (visible) {
-                if (visiblePartY === 'top') {
-                    this._isVisibleTop = true;
-                } else if (visiblePartY === 'bottom') {
-                    this._isVisibleBottom = true;
-                } else {
-                    this._isVisibleTop = true;
-                    this._isVisibleBottom = true;
-                }
 
-                if (this._isVisibleTop && this._isVisibleBottom) {
-                    this.$('.component-widget').off('inview');
-                    triggerVar = "0";
-                }
-
-            }
-        },
+      
       
     actTrickle: function() {
-            triggerVar = "0";
+            parent.triggerVar = "0";
             triggerCheck = setInterval(_.bind(this.inview1, this), 1000);
-        
     },
       
+      
             inview1: function() {
-                if (triggerVar == "1") {
-                    this.setCompletionStatus();
+                if(parent.triggerVar == "0") {
+                } else if (parent.triggerVar == "1") {
+                        this.setCompletionStatus();
+                    if (!this.model.get('_isComplete')) {
+                        parent.triggerVar = 0;
+                    }
                 }
             }
 
