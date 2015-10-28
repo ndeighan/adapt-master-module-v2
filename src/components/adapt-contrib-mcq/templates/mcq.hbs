@@ -1,5 +1,9 @@
 <div class="mcq-inner component-inner" role="region" aria-label="{{_globals._components._mcq.ariaRegion}}" {{#if _globals._components._mcq.ariaRegion}}tabindex="0"{{/if}}>
+       <div class="box-left">
+    <div class="mcq-icon"></div>
+    </div>
     {{> component this}}
+<hr class="style7">
     <div class="mcq-widget component-widget {{#unless _isEnabled}} disabled {{#if _isInteractionComplete}} complete submitted show-user-answer {{#if _isCorrect}}correct{{/if}} {{/if}} {{/unless}}">
         {{#each _items}}
         <div class="mcq-item component-item component-item-color {{#unless ../_isEnabled}} {{#if _isCorrect}} correct{{else}} incorrect{{/if}} {{/unless}} item-{{@index}}">
@@ -17,6 +21,9 @@
         </div>
         {{/each}}
     </div>
+<hr class="style7">
     <div class="buttons">
     </div>
+    <hr class="style7">
+    <br>
 </div>

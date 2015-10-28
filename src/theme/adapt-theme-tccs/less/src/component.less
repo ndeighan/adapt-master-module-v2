@@ -11,7 +11,7 @@
     }
 
     .component-title{
-        margin-bottom: @component-title-margin-bottom;
+        margin-bottom: 0px;
         padding-left: 44px;
         color: @title-color;
         text-align: left;
@@ -27,7 +27,7 @@
 
     .component-body{
         background-color: #ffffff;
-        margin: 0px 0px @component-body-margin-bottom;
+        margin: 0px 0px 10px;
         padding-top: @body-text-margin;
 
         a {
@@ -37,15 +37,17 @@
     }
 
     .component-body-inner{
-            padding: 40px 0px 20px 40px; 
+            padding: 6px 0px 10px 0px; 
     }
 
     .component-instruction {
-        margin-bottom: @component-instruction-margin-bottom;
+        margin-bottom: 3px;
         .instruction-text;
     }
 
     .component-instruction-inner {
+        margin-left: 0px;
+        font-weight: 300;
         &.validation-error {
             color: @validation-error;
         }
