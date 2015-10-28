@@ -17,4 +17,4 @@ If you would like to see what the Adapt Framework is capable of you can [view so
 
 To get started with this release please see [Setting up your development environment](https://github.com/adaptlearning/adapt_framework/wiki/Setting-up-your-development-environment).
 
-Test push to all modules...!
+Test push to all modules!
