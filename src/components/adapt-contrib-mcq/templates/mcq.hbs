@@ -4,11 +4,13 @@
             <div class="mcq-icon"></div>
         </div>
         <div class="box-right">
-            {{#if displayTitle}}
-	           <div class="mcq-title component-title">
-	                   {{{displayTitle}}}
-	           </div>
-            {{/if}}
+            {{#if instruction}}
+	<div class="{{_component}}-instruction component-instruction">
+	    <div class="{{_component}}-instruction-inner component-instruction-inner">
+	        {{{a11y_text instruction}}}
+	    </div>
+	</div>
+{{/if}}
         </div>
     </div>
     {{> component this}}

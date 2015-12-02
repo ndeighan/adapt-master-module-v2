@@ -7,7 +7,7 @@
         "_classes":"",
         "_layout":"full",
         "title":"Introduction",
-        "displayTitle":"",
+        "displayTitle":"Test",
         "body":"",
         "instruction":"",
         "autoplay":"1",
@@ -58,9 +58,9 @@
   "_isRandom":false,
   "_selectable":4,
   "title": "Question",
-  "displayTitle": "Which tasks would be associated with returns and refunds calls?",
+  "displayTitle": "",
   "body": "",
-  "instruction": "",
+  "instruction": "Which tasks would be associated with returns and refunds calls?",
   "_items": [
     {
       "text": "Make outgoing calls.",
