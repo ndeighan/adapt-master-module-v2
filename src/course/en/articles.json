@@ -10,7 +10,7 @@
 		"_trickle": {
 			"_isEnabled": true,
 			  "_button": {
-			    "_className": "trickle-edge-left",
+			    "_className": "trickle-round-arrow",
 			    "_isFullWidth": false,
 			    "_autoHide": false
 			   }

@@ -1,6 +1,15 @@
 <div class="mcq-inner component-inner" role="region" aria-label="{{_globals._components._mcq.ariaRegion}}" {{#if _globals._components._mcq.ariaRegion}}tabindex="0"{{/if}}>
-       <div class="box-left">
-    <div class="mcq-icon"></div>
+    <div class="mcq-header">
+        <div class="box-left">
+            <div class="mcq-icon"></div>
+        </div>
+        <div class="box-right">
+            {{#if displayTitle}}
+	           <div class="mcq-title component-title">
+	                   {{{displayTitle}}}
+	           </div>
+            {{/if}}
+        </div>
     </div>
     {{> component this}}
 <hr class="style7">
