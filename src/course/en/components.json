@@ -1,52 +1,55 @@
 [
-	{  
+{  
   "_id":"c-01",
   	"_parentId":"b-01",
-  "_type":"component",
-  "_component":"webObject",
-        "_classes":"",
-        "_layout":"full",
-        "title":"Introduction",
-        "displayTitle":"Test",
-        "body":"",
-        "instruction":"",
-        "autoplay":"1",
-        "_webObject": {
-            "type": "text/html",
-            "data": "course/en/embed/webObject-1/introduction.html",
-            "width": "100%",
-            "height": "576px"
-        },
-    "_pageLevelProgress": {
+    "_type":"component",
+    "_component":"text",
+    "_classes":"text-sub",
+    "_layout":"full",
+    "title":"Introduction",
+    "displayTitle":"Performance Management",
+    "body":"Defining Behaviors",
+    "instruction":"",
+     "_pageLevelProgress": {
     "_isEnabled": true,
         "_isOptional": false
     }
+
 },
 {  
   "_id":"c-02",
-  	"_parentId":"b-02",
-  "_type":"component",
-  "_component":"webObject",
-        "_classes":"",
-        "_layout":"full",
-        "title":"Define Behaviors",
-        "displayTitle":"",
-        "body":"",
-        "instruction":"",
-        "autoplay":"1",
-        "_webObject": {
-            "type": "text/html",
-            "data": "course/en/embed/webObject-2/narrator.html",
-            "width": "100%",
-            "height": "576px"
-        },
-    "_pageLevelProgress": {
-    "_isEnabled": true,
-        "_isOptional": false
+  	"_parentId":"b-01",
+    "_type":"component",
+    "_component":"graphic",
+    "_classes":"",
+    "_layout":"full",
+    "title":"",
+    "displayTitle":"",
+    "body":"",
+    "instruction":"",
+    "height": "506px",
+    "_graphic": {
+        "alt": "Tina standing on the call floor.",
+        "large": "course/en/images/SV-header.png",
+        "small": "course/en/images/SV-header.png",
+        "attribution":""
     }
+},   
+{  
+  "_id":"c-03",
+  	"_parentId":"b-01",
+    "_type":"component",
+    "_component":"text",
+    "_classes":"text-body",
+    "_layout":"full",
+    "title":"",
+    "displayTitle":"",
+    "body":"In this module, we’ll describe how to define measureable agent behaviors, and we’ll discuss how each performance standard should be assessed.",
+    "instruction":""
+   
 },
 {
-  "_id":"c-03",
+  "_id":"c-04",
   "_parentId":"b-03",
   "_type":"component",
   "_component":"mcq",
@@ -160,7 +163,7 @@
     }
 },
 {  
-  "_id":"c-04",
+  "_id":"c-05",
   	"_parentId":"b-04",
   "_type":"component",
   "_component":"webObject",
@@ -183,7 +186,7 @@
     }
 },
 {  
-   "_id":"c-05",
+   "_id":"c-06",
   	"_parentId":"b-05",  
   "_type":"component",
   "_component":"webObject",
