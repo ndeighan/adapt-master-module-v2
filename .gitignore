@@ -1,5 +1,4 @@
-src/course/en/audio
-src/course/en/video
-build
+src/course/en/
+build/
 .DS_Store
 .idea
