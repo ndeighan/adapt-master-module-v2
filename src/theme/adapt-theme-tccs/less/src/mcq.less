@@ -1,28 +1,39 @@
 .background-picture {
-    /*background-image: url("../../course/en/images/cloud-background.png");*/
     background-position: top;
     background-repeat: no-repeat;
     width: 100%;
 }
 
     .mcq-icon {
-    background-size: 70px 70px;
+    background-size: 50px 50px;
     display: inline-block;
-    width: 70px;
-    height: 70px;
-    margin: 0px 0 0 32px;
-    background-image: url("../../course/en/images/mcq-icon.jpg");
+    width: 50px;
+    height: 50px;
+    margin: auto 32px auto;
+    background-image: url("../../course/en/images/mcq-icon.png");
+}
+
+.mcq-title {
+    font-weight: 600;
+}
+
+.mcq-header {
+    display: inline-flex;
+    padding-top: 10px;
 }
 
 .box-left {
+  z-index: 10;
   display: inline-block;
-  width: 100px;
-  margin: 30px 0px 0px 0px;
+  width: 60px;
+  margin: auto 0px;
 }
 
 .box-right {
+  z-index: 100;  
   display: inline-block;
-  margin: 8px 0px 0px 8px;
+  width: 100%;
+  margin: auto 8px;
 }
 
 hr.style7 {
@@ -35,6 +46,7 @@ hr.style7 {
 .mcq-body-inner {
     font-size: 22px; 
     font-weight: 600;
+    word-wrap: normal;
 }
 
 .mcq-component {

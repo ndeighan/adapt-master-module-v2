@@ -46,12 +46,27 @@ html.trickle {
 
     }
 
-    &.trickle-round-arrow {
+&.trickle-round-arrow {
+        	   width: 1024px;
+	            margin: auto;
+	            padding: 0;
+	         // reduce padding as screen width decreases
+	            @media all and (max-width: (@device-width-large + 20px)) {
+	                left: 20px;
+	                bottom: 3px;
+	            }
+	            @media all and (max-width: (@device-width-small + 20px)) {
+	                padding: (@block-padding-top / 3) 10px (@block-padding-bottom / 3);
+	            }
         button {
-            width: 80px;
-            height: 80px;
+                position: absolute;
+                left: 49px;
+                bottom: 1px;
+                display: inline;
+            width: 87px;
+            height: 92px;
             background-color: @button-color;
-            border-radius: 50%;
+            border-radius: 20px 0px 20px 20px;
             margin: 10px auto 0;
             -webkit-transition: background-color 0.25s ease-in;
             -moz-transition: background-color 0.25s ease-in;
@@ -81,10 +96,10 @@ html.trickle {
                 display:block;
                 
                 button {
-                    width: 80px;
-                    height: 80px;
+                    width: 87px;
+                    height: 92px;
                     background-color: @button-color;
-                    border-radius: 50%;
+                    border-radius: 20px 0px 20px 20px;
                     margin: 10px auto 0;
                     -webkit-transition: background-color 0.25s ease-in;
                     -moz-transition: background-color 0.25s ease-in;

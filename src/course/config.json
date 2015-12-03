@@ -16,7 +16,7 @@
 		"_isEnabled": true,
         "_tracking": {
             "_requireCourseCompleted": true,
-            "_requireAssessmentPassed": true,
+            "_requireAssessmentPassed": false,
             "_shouldSubmitScore": false
         },
         "_reporting": {
