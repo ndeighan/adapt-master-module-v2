@@ -1,0 +1,33 @@
+
+{
+
+	"viewStartMs":"-25",
+	"pref__general__AutoKeyframePropertiesArmed":"false",
+	"symbol_stage":{
+		"defaultStageParentWidth":"1024px",
+		"dummyStageParentWidth":"1024px",
+		"defaultStageParentHeight":"576px",
+		"dummyStageParentHeight":"576px"},
+	"CompZoomFactor":"100",
+	"viewStartY":"0",
+	"ModelData":"{\
+\"stage\": {\
+   \"timelines\": {\
+      \"Default Timeline\": {\
+      }\
+   }},\
+\"Preloader\": {\
+   \"timelines\": {\
+\
+   }},\
+\"Down-level\": {\
+   \"timelines\": {\
+\
+   }}\
+}",
+	"usedBOM":"false",
+	"HTMLFileName":"introduction.html",
+	"stage-Default Timeline_playhead_ms":"0",
+	"pref__general__AutoKeyframeProperties":"false",
+	"pref__general__GenerateSmoothTransitions":"false",
+	"StageZoomFactor":"50"}
