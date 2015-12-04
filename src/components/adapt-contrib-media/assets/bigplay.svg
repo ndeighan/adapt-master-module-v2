@@ -1,239 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Generator: Adobe Fireworks CS6, Export SVG Extension by Aaron Beall (http://fireworks.abeall.com) . Version: 0.6.1  -->
-
-<svg
-   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   id="bigplay-gradient.fw-Page%201"
-   viewBox="0 0 100 200"
-   style="background-color:#ffffff00"
-   version="1.1"
-   xml:space="preserve"
-   x="0px"
-   y="0px"
-   width="100px"
-   height="200px"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="bigplay.svg"><metadata
-     id="metadata55"><rdf:RDF><cc:Work
-         rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1386"
-     inkscape:window-height="768"
-     id="namedview53"
-     showgrid="false"
-     inkscape:zoom="3.0507238"
-     inkscape:cx="32.989247"
-     inkscape:cy="119.80502"
-     inkscape:window-x="882"
-     inkscape:window-y="421"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="bigplay-gradient.fw-Page%201"
-     inkscape:snap-global="false"
-     showguides="true"
-     inkscape:guide-bbox="true"><sodipodi:guide
-       position="12.783851,177.00717"
-       orientation="1,0"
-       id="guide4161" /><sodipodi:guide
-       position="20.860496,111.71954"
-       orientation="0,1"
-       id="guide4163" /><sodipodi:guide
-       position="87.848005,175.36822"
-       orientation="1,0"
-       id="guide4167" /><sodipodi:guide
-       position="5.9002391,188.80765"
-       orientation="0,1"
-       id="guide4169" /><sodipodi:guide
-       position="11.125598,87.614081"
-       orientation="0,1"
-       id="guide4175" /><sodipodi:guide
-       position="53.757734,149.47273"
-       orientation="0,1"
-       id="guide4272" /><sodipodi:guide
-       position="-19.469796,50.065189"
-       orientation="0,1"
-       id="guide4274" /><sodipodi:guide
-       position="-39.334928,168.48461"
-       orientation="0,1"
-       id="guide4351" /><sodipodi:guide
-       position="-29.828987,68.180541"
-       orientation="0,1"
-       id="guide4353" /><sodipodi:guide
-       position="31.75431,167.8111"
-       orientation="1,0"
-       id="guide4355" /><sodipodi:guide
-       position="64.57484,181.59625"
-       orientation="1,0"
-       id="guide4357" /><sodipodi:guide
-       position="-64.902631,134.39434"
-       orientation="0,1"
-       id="guide4405" /><sodipodi:guide
-       position="-59.657974,32.123524"
-       orientation="0,1"
-       id="guide4407" /><sodipodi:guide
-       position="34.827801,142.9169"
-       orientation="1,0"
-       id="guide4448" /><sodipodi:guide
-       position="45.89309,140.22889"
-       orientation="0,1"
-       id="guide4450" /></sodipodi:namedview><defs
-     id="defs3"><inkscape:path-effect
-       is_visible="true"
-       id="path-effect4195"
-       effect="spiro" /><inkscape:path-effect
-       is_visible="true"
-       id="path-effect4191"
-       effect="spiro" /><inkscape:path-effect
-       effect="spiro"
-       id="path-effect4187"
-       is_visible="true" /><inkscape:path-effect
-       effect="spiro"
-       id="path-effect4419"
-       is_visible="true" /><linearGradient
-       id="linearGradient4411"
-       osb:paint="solid"><stop
-         style="stop-color:#ffffff;stop-opacity:1;"
-         offset="0"
-         id="stop4413" /></linearGradient><inkscape:path-effect
-       effect="spiro"
-       id="path-effect4363"
-       is_visible="true" /><inkscape:path-effect
-       effect="spiro"
-       id="path-effect4249"
-       is_visible="true" /><inkscape:path-effect
-       effect="spiro"
-       id="path-effect4173"
-       is_visible="true" /><radialGradient
-       id="gradient1"
-       cx="50%"
-       cy="50%"
-       r="50%"><stop
-         stop-color="#222222"
-         stop-opacity="0"
-         offset="70%"
-         id="stop6" /><stop
-         stop-color="#222222"
-         stop-opacity="0.0118"
-         offset="70.202%"
-         id="stop8" /><stop
-         stop-color="#333333"
-         stop-opacity="1"
-         offset="85%"
-         id="stop10" /><stop
-         stop-color="#333333"
-         stop-opacity="0"
-         offset="100%"
-         id="stop12" /></radialGradient><radialGradient
-       id="gradient2"
-       cx="50%"
-       cy="50%"
-       r="50%"><stop
-         stop-color="#bbbbbb"
-         stop-opacity="0"
-         offset="70%"
-         id="stop15" /><stop
-         stop-color="#bbbbbb"
-         stop-opacity="0.0118"
-         offset="70.202%"
-         id="stop17" /><stop
-         stop-color="#bbbbbb"
-         stop-opacity="1"
-         offset="85%"
-         id="stop19" /><stop
-         stop-color="#bbbbbb"
-         stop-opacity="0"
-         offset="100%"
-         id="stop21" /></radialGradient><filter
-       id="filter1"
-       x="-100%"
-       y="-100%"
-       width="300%"
-       height="300%"><!-- Glow --><feColorMatrix
-         result="out"
-         in="SourceGraphic"
-         type="matrix"
-         values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.251 0"
-         id="feColorMatrix24" /><feMorphology
-         result="out"
-         in="out"
-         operator="dilate"
-         radius="3"
-         id="feMorphology26" /><feGaussianBlur
-         result="out"
-         in="out"
-         stdDeviation="1.5"
-         id="feGaussianBlur28" /><feBlend
-         in="SourceGraphic"
-         in2="out"
-         mode="normal"
-         result="Glow1"
-         id="feBlend30" /></filter><filter
-       id="filter2"
-       x="-100%"
-       y="-100%"
-       width="300%"
-       height="300%"><!-- Glow --><feColorMatrix
-         result="out"
-         in="SourceGraphic"
-         type="matrix"
-         values="0 0 0 0.8667 0  0 0 0 0.8667 0  0 0 0 0.8667 0  0 0 0 0.251 0"
-         id="feColorMatrix33" /><feMorphology
-         result="out"
-         in="out"
-         operator="dilate"
-         radius="3"
-         id="feMorphology35" /><feGaussianBlur
-         result="out"
-         in="out"
-         stdDeviation="1.5"
-         id="feGaussianBlur37" /><feBlend
-         in="SourceGraphic"
-         in2="out"
-         mode="normal"
-         result="Glow2"
-         id="feBlend39" /></filter></defs><g
-     id="Background" /><rect
-     style="opacity:1;fill:#516c95;fill-opacity:1;stroke:none;stroke-width:6.4000001;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.49044584"
-     id="rect4165"
-     width="75.439949"
-     height="76.703102"
-     x="12.408054"
-     y="11.520138"
-     ry="38.351551"
-     rx="37.719975" /><rect
-     style="opacity:1;fill:#f8a81c;fill-opacity:1;stroke:none;stroke-width:6.4000001;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.49044584"
-     id="rect4359"
-     width="74.872139"
-     height="75.719742"
-     x="12.783852"
-     y="111.8242"
-     rx="37.436069"
-     ry="37.859871" /><path
-     style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="M 41.205666,39.110828 41.182477,61.672171 61.62472,50.363379 41.205666,39.110828 Z"
-     id="path4185"
-     inkscape:path-effect="#path-effect4187"
-     inkscape:original-d="M 41.205666,39.110828 41.182477,61.672171 61.62472,50.363379 Z"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cccc" /><path
-     sodipodi:nodetypes="cccc"
-     inkscape:connector-curvature="0"
-     inkscape:original-d="m 41.861248,138.43152 -0.02319,22.56134 20.442243,-11.30879 z"
-     inkscape:path-effect="#path-effect4195"
-     id="path4193"
-     d="m 41.861248,138.43152 -0.02319,22.56134 20.442243,-11.30879 -20.419053,-11.25255 z"
-     style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" /></svg>
+<?xml version="1.0" standalone="no"?><!-- Generator: Adobe Fireworks CS6, Export SVG Extension by Aaron Beall (http://fireworks.abeall.com) . Version: 0.6.1  --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg id="bigplay-gradient.fw-Page%201" viewBox="0 0 100 200" style="background-color:#ffffff00" version="1.1"	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"	x="0px" y="0px" width="100px" height="200px">	<defs>		<radialGradient id="gradient1" cx="50%" cy="50%" r="50%">			<stop stop-color="#222222" stop-opacity="0" offset="70%"/>			<stop stop-color="#222222" stop-opacity="0.0118" offset="70.202%"/>			<stop stop-color="#333333" stop-opacity="1" offset="85%"/>			<stop stop-color="#333333" stop-opacity="0" offset="100%"/>		</radialGradient>		<radialGradient id="gradient2" cx="50%" cy="50%" r="50%">			<stop stop-color="#bbbbbb" stop-opacity="0" offset="70%"/>			<stop stop-color="#bbbbbb" stop-opacity="0.0118" offset="70.202%"/>			<stop stop-color="#bbbbbb" stop-opacity="1" offset="85%"/>			<stop stop-color="#bbbbbb" stop-opacity="0" offset="100%"/>		</radialGradient>		<filter id="filter1" x="-100%" y="-100%" width="300%" height="300%">			<!-- Glow -->			<feColorMatrix result="out" in="SourceGraphic" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.251 0"/>			<feMorphology result="out" in="out" operator="dilate" radius="3"/>			<feGaussianBlur result="out" in="out" stdDeviation="1.5"/>			<feBlend in="SourceGraphic" in2="out" mode="normal" result="Glow1"/>		</filter>		<filter id="filter2" x="-100%" y="-100%" width="300%" height="300%">			<!-- Glow -->			<feColorMatrix result="out" in="SourceGraphic" type="matrix" values="0 0 0 0.8667 0  0 0 0 0.8667 0  0 0 0 0.8667 0  0 0 0 0.251 0"/>			<feMorphology result="out" in="out" operator="dilate" radius="3"/>			<feGaussianBlur result="out" in="out" stdDeviation="1.5"/>			<feBlend in="SourceGraphic" in2="out" mode="normal" result="Glow2"/>		</filter>	</defs>	<g id="Background">	</g>	<g id="dark%20shadow">		<path d="M 22 50 C 22 34.5358 34.5358 22 50 22 C 65.4642 22 78 34.5358 78 50 C 78 65.4642 65.4642 78 50 78 C 34.5358 78 22 65.4642 22 50 ZM 5 50 C 5 74.8531 25.1469 95 50 95 C 74.8531 95 95 74.8531 95 50 C 95 25.1469 74.8531 5 50 5 C 25.1469 5 5 25.1469 5 50 Z" fill="url(#gradient1)"/>		<path d="M 22 150 C 22 134.5358 34.5358 122 50 122 C 65.4642 122 78 134.5358 78 150 C 78 165.4642 65.4642 178 50 178 C 34.5358 178 22 165.4642 22 150 ZM 5 150 C 5 174.8531 25.1469 195 50 195 C 74.8531 195 95 174.8531 95 150 C 95 125.1469 74.8531 105 50 105 C 25.1469 105 5 125.1469 5 150 Z" fill="url(#gradient2)"/>	</g>	<g id="dark">		<path id="Polygon" filter="url(#filter1)" d="M 72.5 49.5 L 38.75 68.9856 L 38.75 30.0144 L 72.5 49.5 Z" fill="#ffffff"/>		<path id="Ellipse" d="M 13 50.5 C 13 29.7891 29.7891 13 50.5 13 C 71.2109 13 88 29.7891 88 50.5 C 88 71.2109 71.2109 88 50.5 88 C 29.7891 88 13 71.2109 13 50.5 Z" stroke="#ffffff" stroke-width="5" fill="none"/>	</g>	<g id="light">		<path id="Polygon2" filter="url(#filter2)" d="M 72.5 149.5 L 38.75 168.9856 L 38.75 130.0144 L 72.5 149.5 Z" fill="#ffffff"/>		<path id="Ellipse2" d="M 13 150.5 C 13 129.7891 29.7891 113 50.5 113 C 71.2109 113 88 129.7891 88 150.5 C 88 171.211 71.2109 188 50.5 188 C 29.7891 188 13 171.211 13 150.5 Z" stroke="#ffffff" stroke-width="5" fill="none"/>	</g></svg>

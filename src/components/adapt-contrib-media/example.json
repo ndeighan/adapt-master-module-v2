@@ -68,7 +68,7 @@
         "pauseOtherPlayers": true,
         "startLanguage": "",
         "tracksText": "mejs.i18n.t('Captions/Subtitles')",
-        "hideCaptionsButtonWhenEmpty": false,
+        "hideCaptionsButtonWhenEmpty": true,
         "toggleCaptionsButtonWhenOnlyOne": false,
         "slidesSelector": ""
     }
