@@ -1,84 +1,28 @@
-.background-picture {
-    background-position: top;
-    background-repeat: no-repeat;
-    width: 100%;
-}
-
-    .mcq-icon {
-    background-size: 50px 50px;
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    margin: auto 32px auto;
-    background-image: url("../../course/en/images/mcq-icon.png");
-}
-
-.mcq-title {
-    font-weight: 600;
-}
-
-.mcq-header {
-    display: inline-flex;
-    padding-top: 10px;
-}
-
-.box-left {
-  z-index: 10;
-  display: inline-block;
-  width: 60px;
-  margin: auto 0px;
-}
-
-.box-right {
-  z-index: 100;  
-  display: inline-block;
-  width: 100%;
-  margin: auto 8px;
-}
-
-hr.style7 {
-    border-top: 1px solid #ebe9e9;
-    border-bottom: 1px solid #fff;
-    margin-left: 40px;
-    margin-right: 40px;
-}
-
-.mcq-body-inner {
-    font-size: 22px; 
-    font-weight: 600;
-    word-wrap: normal;
-}
-
 .mcq-component {
     .mcq-item {
-        background-color:@white;
+        padding-left: 25px;
+        padding-right: 25px;
+        background-color:#fff;
         position:relative;
     }
 
-    .mcq-component .mcq-item label .mcq-answer-icon.checkbox {
-    border: 3px solid #000;
-    width: 18px;
-    height: 18px;
-    font-size: 18px;
-    font-weight: bold;
-    border-radius: 2px;
-}
+
 
     .mcq-item label {
-        color:#333;
+        color:@item-text-color;
         display:block;
         margin-bottom:@item-margin-bottom;
         position:relative;
         z-index:1;
-        background-color:@white;
+        background-color:#8fc3bc;
         cursor:pointer;
 
         &.selected {
             color:@item-text-color-selected;
-            background-color:@button-color;
-            border-color:@white;
+            background-color:#74a49e;
+            border-color:@item-border-color-selected;
             .mcq-answer-icon {
-                color:@white;
+                color:@item-text-color-selected;
 
                  &.radio {
                     &:before {
@@ -89,7 +33,7 @@ hr.style7 {
                     &:before {
                         content: "\e633";
                     }
-                    border: 3px solid @white;
+                    border: 3px solid @item-text-color-selected;
                     width:18px;
                     height:18px;
                     font-size:18px;
@@ -98,7 +42,7 @@ hr.style7 {
                 }
             }
             .mcq-item-icon {
-                color:@white;
+                color:@item-text-color-selected;
 
                 &.mcq-correct-icon {
                     color:@validation-success;
@@ -112,9 +56,9 @@ hr.style7 {
     }
 
     .mcq-item-inner {
-        padding-top: @item-padding-top;
-        padding-bottom: @item-padding-bottom;
-        padding-right: @item-padding-right;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 15px;
         padding-left: (@icon-size+(@item-padding-left*2));
     }
 
@@ -147,17 +91,24 @@ hr.style7 {
     &.disabled {
         .mcq-item label.selected.disabled {
             color:@item-text-color-selected;
-            background-color:@item-color-selected;
+            background-color:#949494;
             border-color:@item-border-color-selected;
             cursor:default;
         }
         .mcq-item label.disabled {
             color:@item-text-color-disabled;
-            background-color:@item-color-disabled;
+            background-color:#BBB;
             border-color:@item-border-color-disabled;
             cursor:default;
 
             .mcq-item-icon {
+                    background-color: #fff;
+                    -moz-border-radius: 60px;
+                    -webkit-border-radius: 60px;
+                    border-radius: 60px;
+                    -moz-box-shadow: 0px 0px 0px #888;
+                    -webkit-box-shadow: 0px 0px 2px #888;
+                    box-shadow: 0px 0px 2px #888;
                 &.mcq-correct-icon {
                     color:@validation-success;
                 }
@@ -175,7 +126,7 @@ hr.style7 {
         &:not(.disabled) {
             .mcq-item label:hover {
                 color:@item-text-color-hover;
-                background-color:@button-color-hover;
+                background-color:#74a49e;
                 border-color:@item-border-color-hover;
                 .mcq-item-icon {
                     color: none;
