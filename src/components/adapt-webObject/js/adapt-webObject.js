@@ -54,17 +54,17 @@ define(function(require) {
       
       
     actTrickle: function() {
-            parent.triggerVar = "0";
+            window.triggerVar = "0";
             triggerCheck = setInterval(_.bind(this.inview1, this), 1000);
     },
       
       
             inview1: function() {
-                if(parent.triggerVar == "0") {
-                } else if (parent.triggerVar == "1") {
+                if(window.triggerVar == "0") {
+                } else if (window.triggerVar == "1") {
                         this.setCompletionStatus();
                     if (!this.model.get('_isComplete')) {
-                        parent.triggerVar = 0;
+                        window.triggerVar = 0;
                     }
                 }
             }
