@@ -30,6 +30,7 @@ override the defaults and extend as i see fit.
     width: @device-width-large;
     margin: 0 auto;
     height: 650px;
+    background-image: url(../../course/en/images/SV-header.png), none;
     background-color: @secondary-color;
 
     /**
@@ -39,24 +40,24 @@ override the defaults and extend as i see fit.
         .bg-item {
             .dragdrop-borderbox;
             position: absolute;
-            border-radius: 10px;
-            background-color: purple;
+            border-radius: 0px;
+            background-color: #000;
             font-size: 1.5em;
             padding: 1.0em;
             color: white;
             width: 50%;
             height: 14%;
             &.bg-item-1 {
-                left: 5%;
+                left: 2%;
                 top: 10%;
             }
             &.bg-item-2 {
                 top: 32%;
-                left: 5%
+                left: 2%
             }
             &.bg-item-3 {
                 top: 54%;
-                left: 5%
+                left: 2%
             }
         }
     }
@@ -73,7 +74,7 @@ override the defaults and extend as i see fit.
             &.dropzone-01 {
                 width: 30%;
                 height: 14%;
-                border-radius: 10px;
+                border-radius: 0px;
                 text-align: center;
                 font-size: 30px;
                 color: white;
@@ -126,7 +127,7 @@ override the defaults and extend as i see fit.
                 /** At rest styles */
                 width: 30%;
                 height: 14%;
-                border-radius: 10px;
+                border-radius: 0px;
                 text-align: center;
                 color: white;
                 padding: 0.9em;

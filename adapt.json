@@ -22,6 +22,7 @@
         "adapt-contrib-slider": "*",
         "adapt-contrib-spoor": "*",
         "adapt-contrib-bookmarking": "*",
-        "adapt-webObject": "*"
+        "adapt-webObject": "*",
+        "adapt-dragdrop": "*"
     }
 }
