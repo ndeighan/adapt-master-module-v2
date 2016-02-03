@@ -1,0 +1,22 @@
+[
+	{
+		"_id": "co-01",
+		"_parentId": "course",
+		"_type": "page",
+		"_classes": "",
+		"title": "Presentation Components",
+		"displayTitle": "",
+		"pageBody": "",
+		"body": "",
+		"_graphic": {
+			"src": "course/en/images/menu_thumb.jpg",
+			"alt": "Placeholder graphic."
+		},
+		"linkText": "View",
+		"durationLabel": "Duration:",
+		"duration": "2 mins",
+		"_pageLevelProgress": {
+			"_isEnabled": true
+		}
+	}
+]
