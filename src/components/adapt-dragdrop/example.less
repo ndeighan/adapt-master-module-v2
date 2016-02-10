@@ -1,25 +1,6 @@
 /*
-A general guide to this CSS - while i learn a little more about LESS i've chosen personal preference over
-what i imagine best practice. Adding 100's of media query inlines makes things very hard to read... i also
-go from big to small. This is how i work... you can change up if you.
 
-Usage expectations: 
-
-This is the an example component style. Copy and paste into somewhere in your code where it can be picked up 
-by your Gruntfile. I personally extend the the Grunt file to pick up LESS files in my course folder. So i 
-override the defaults and extend as i see fit.
-
-
-
-
-
-           ___       ________  ________  ________  _______      
-          |\  \     |\   __  \|\   __  \|\   ____\|\  ___ \     
-          \ \  \    \ \  \|\  \ \  \|\  \ \  \___|\ \   __/|    
-           \ \  \    \ \   __  \ \   _  _\ \  \  __\ \  \_|/__  
-            \ \  \____\ \  \ \  \ \  \\  \\ \  \|\  \ \  \_|\ \ 
-             \ \_______\ \__\ \__\ \__\\ _\\ \_______\ \_______\
-              \|_______|\|__|\|__|\|__|\|__|\|_______|\|_______|
+Large
                                                                 
 */
 .dragdrop-container {
@@ -30,7 +11,6 @@ override the defaults and extend as i see fit.
     width: @device-width-large;
     margin: 0 auto;
     height: 650px;
-    background-image: url(../../course/en/images/SV-header.png), none;
     background-color: @secondary-color;
 
     /**
@@ -48,16 +28,16 @@ override the defaults and extend as i see fit.
             width: 50%;
             height: 14%;
             &.bg-item-1 {
-                left: 2%;
                 top: 10%;
+                left: 5%;
             }
             &.bg-item-2 {
                 top: 32%;
-                left: 2%
+                left: 5%
             }
             &.bg-item-3 {
                 top: 54%;
-                left: 2%
+                left: 5%
             }
         }
     }
@@ -72,13 +52,13 @@ override the defaults and extend as i see fit.
             /** End of Global Droppable Styles*/
             /** Specific Implementation Styles **/
             &.dropzone-01 {
-                width: 30%;
+                width: 41%;
                 height: 14%;
-                border-radius: 0px;
+                border-radius: 5px;
                 text-align: center;
                 font-size: 30px;
                 color: white;
-                background-color: #454545;
+                background-color: #fff;
                 border: 1px dashed #777777;
                 &.ui-state-highlight {
                     background-color: #676767;
@@ -102,11 +82,15 @@ override the defaults and extend as i see fit.
                 }
                 &#dropperB {
                     right: 5%;
-                    top: 32%;
+                    top: 30%;
                 }
                 &#dropperC {
                     right: 5%;
-                    top: 54%;
+                    top: 50%;
+                }
+                &#dropperD {
+                    right: 5%;
+                    top: 70%;
                 }
             }
         }
@@ -125,14 +109,14 @@ override the defaults and extend as i see fit.
             /*Specific Implementations overrides - This is where you can target either by class id or both depending on your needs*/
             &.draggable-01 {
                 /** At rest styles */
-                width: 30%;
+                width: 41%;
                 height: 14%;
-                border-radius: 0px;
+                border-radius: 5px;
                 text-align: center;
                 color: white;
                 padding: 0.9em;
                 font-size: 2.0em;
-                background-color: #447;
+                background-color: #8fc3bc;
                 /** Disabled from dragging styles */
                 &.ui-draggable-disabled {}
                 /** Placed in droppable area styles */
@@ -143,29 +127,29 @@ override the defaults and extend as i see fit.
                 Specific ID targeted styles for the draggable elements
                 */
                 &#draggerA {
-                    left: 2%;
-                    bottom: 5%;
+                    left: 5%;
+                    top: 10%;
                 }
                 &#draggerB {
-                    left: 35%;
-                    bottom: 5%;
+                    left: 5%;
+                    top: 30%;
                 }
                 &#draggerC {
-                    left: 67%;
-                    bottom: 5%;
+                    left: 5%;
+                    top: 50%;
+                }
+                &#draggerD {
+                    left: 5%;
+                    top: 70%;
                 }
             }
         }
     }
 }
 /*
-           _____ ______   _______   ________  ___  ___  ___  _____ ______      
-          |\   _ \  _   \|\  ___ \ |\   ___ \|\  \|\  \|\  \|\   _ \  _   \    
-          \ \  \\\__\ \  \ \   __/|\ \  \_|\ \ \  \ \  \\\  \ \  \\\__\ \  \   
-           \ \  \\|__| \  \ \  \_|/_\ \  \ \\ \ \  \ \  \\\  \ \  \\|__| \  \  
-            \ \  \    \ \  \ \  \_|\ \ \  \_\\ \ \  \ \  \\\  \ \  \    \ \  \ 
-             \ \__\    \ \__\ \_______\ \_______\ \__\ \_______\ \__\    \ \__\
-              \|__|     \|__|\|_______|\|_______|\|__|\|_______|\|__|     \|__|
+
+Medium
+
 */
 
 @media all and (max-width: @device-width-large) and (min-width: (@device-width-medium)) {
@@ -214,14 +198,9 @@ override the defaults and extend as i see fit.
     }
 }
 /*
-           ________  _____ ______   ________  ___       ___          
-          |\   ____\|\   _ \  _   \|\   __  \|\  \     |\  \         
-          \ \  \___|\ \  \\\__\ \  \ \  \|\  \ \  \    \ \  \        
-           \ \_____  \ \  \\|__| \  \ \   __  \ \  \    \ \  \       
-            \|____|\  \ \  \    \ \  \ \  \ \  \ \  \____\ \  \____  
-              ____\_\  \ \__\    \ \__\ \__\ \__\ \_______\ \_______\
-             |\_________\|__|     \|__|\|__|\|__|\|_______|\|_______|
-             \|_________|                                            
+
+Small
+                                          
 */
 @media all and (max-width: @device-width-medium) and (min-width: (@device-width-small)) {
     .dragdrop-container {
@@ -271,15 +250,8 @@ height: 450px;
 
 
 /*
-        ___    ___ ________  _____ ______   ________  ___       ___          
-       |\  \  /  /|\   ____\|\   _ \  _   \|\   __  \|\  \     |\  \         
-       \ \  \/  / | \  \___|\ \  \\\__\ \  \ \  \|\  \ \  \    \ \  \        
-        \ \    / / \ \_____  \ \  \\|__| \  \ \   __  \ \  \    \ \  \       
-         /     \/   \|____|\  \ \  \    \ \  \ \  \ \  \ \  \____\ \  \____  
-        /  /\   \     ____\_\  \ \__\    \ \__\ \__\ \__\ \_______\ \_______\
-       /__/ /\ __\   |\_________\|__|     \|__|\|__|\|__|\|_______|\|_______|
-       |__|/ \|__|   \|_________|                                            
-                                                                             
+
+X-Small                                                                             
                                                                                                                               
 */
 @media all and (max-width: (@device-width-small - 1px)) {
