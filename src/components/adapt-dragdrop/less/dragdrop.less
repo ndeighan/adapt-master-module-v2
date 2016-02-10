@@ -38,14 +38,17 @@ Large
     .dragdrop-noselect;
     display: block;
     position: relative;
-    width: @device-width-large;
+    max-width: 965px;
     margin: 0 auto;
-    height: 650px;
-    background-color: #fff;
+    height: 576px;
+    background-color: #000;
 
-    /**
-    Background - depends on what you pu into the background body for that
-    */
+ 
+    background-image: url(../../course/en/images/book.jpg), none;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+
     .dragdrop-background {
         //Custom Background CSS here
     }
@@ -117,7 +120,7 @@ Medium
                     &.ui-state-highlight {
                         &.correct {} &.incorrect {}
                     }
-                    &.ui-state-hover {} &.ui-state-active {} &#dropperA {} &#dropperB {} &#dropperC {}
+                    &.ui-state-hover {} &.ui-state-active {} &#dropperA {} &#dropperB {} &#dropperC {} &#dropperD {}
                 }
             }
             &.ui-draggable {
@@ -132,7 +135,7 @@ Medium
                     /** Placed in droppable area styles */
                     &.ui-state-placed {}
                     /** Specific ID targeted styles for the draggable elements*/
-                    &#draggerA {} &#draggerB {} &#draggerC {}
+                    &#draggerA {} &#draggerB {} &#draggerC {} &#draggerD {}
                 }
             }
         }
@@ -150,7 +153,7 @@ Small
         .dragdrop-background {
             .bg-item {
                 font-size: 1.0em;
-                &.bg-item-1 {} &.bg-item-2 {} &.bg-item-3 {}
+                &.bg-item-1 {} &.bg-item-2 {} &.bg-item-3 {} &.bg-item-3 {}
             }
         }
         .ui-dragdrop-item {
@@ -166,7 +169,7 @@ Small
                     &.ui-state-highlight {
                         &.correct {} &.incorrect {}
                     }
-                    &.ui-state-hover {} &.ui-state-active {} &#dropperA {} &#dropperB {} &#dropperC {}
+                    &.ui-state-hover {} &.ui-state-active {} &#dropperA {} &#dropperB {} &#dropperC {} &#dropperD {}
                 }
             }
             &.ui-draggable {
@@ -181,7 +184,7 @@ Small
                     /** Placed in droppable area styles */
                     &.ui-state-placed {}
                     /** Specific ID targeted styles for the draggable elements*/
-                    &#draggerA {} &#draggerB {} &#draggerC {}
+                    &#draggerA {} &#draggerB {} &#draggerC {} &#draggerD {}
                 }
             }
         }
@@ -218,7 +221,7 @@ X-Small
                     &.ui-state-highlight {
                         &.correct {} &.incorrect {}
                     }
-                    &.ui-state-hover {} &.ui-state-active {} &#dropperA {} &#dropperB {} &#dropperC {}
+                    &.ui-state-hover {} &.ui-state-active {} &#dropperA {} &#dropperB {} &#dropperC {} &#dropperD {}
                 }
             }
             &.ui-draggable {
@@ -237,6 +240,7 @@ X-Small
                     &#draggerA {} 
                     &#draggerB {} 
                     &#draggerC {}
+                    &#draggerD {}
                 }
             }
         }
